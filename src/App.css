@@ -1,0 +1,41 @@
+body {
+  /* background-color: #282c34; */
+}
+
+.iconButton {
+  transition: background-color 0.3s !important;
+}
+.iconButton:hover {
+  background-color: #c8c8c8 !important;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+}
+.todo {
+  transition: all 0.3s !important;
+}
+.todo:hover {
+  padding: 20px 0;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Thin font */
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Thin.ttf");
+  font-weight: 100;
+}
+/* Regular font */
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Regular.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: Alexandria;
+  src: url("../public/fonts/Alexandria-Bold.ttf");
+  font-weight: 700;
+}
